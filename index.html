@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rivera's Lawncare LLC.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Rivera's Lawncare LLC.</h2>
+        <nav class="navigation">
+            <a href="index.html" id="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+        <a href="#contact" class="contact-link">
+            <i class="bx bx-envelope"></i>Contact Us
+        </a>
+    </header>
+
+    <section id="home" class="parallax">
+        <img src="Parallax Images/hill1.png" id="hill1">
+        <img src="Parallax Images/hill2.png" id="hill2">
+        <img src="Parallax Images/hill3.png" id="hill3">
+        <img src="Parallax Images/hill4.png" id="hill4">
+        <img src="Parallax Images/hill5.png" id="hill5">
+        <img src="Parallax Images/tree.png" id="tree">
+        <h2 id="text">Welcome to <br>our Website!</h2>
+        <img src="Parallax Images/leaf.png" id="leaf">
+        <img src="Parallax Images/plant.png" id="plant">
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about_content">
+            <div class="left_side">
+                <p>
+                Rivera’s Lawncare LLC is dedicated to providing reliable, high-quality lawn care and outdoor maintenance services for residential and commercial properties. We take pride in transforming ordinary yards into clean, healthy, and well-maintained outdoor spaces that enhance curb appeal and property value. <br><br>
+                As a locally focused business, we understand the importance of consistency, attention to detail, and trust. Every job we take on is completed with care, whether it’s routine mowing, seasonal cleanup, edging, or full property maintenance. <br><br>
+                Our goal is simple — to make lawn care easy and stress-free for our customers while delivering results that speak for themselves. We believe that a well-kept yard reflects pride in your home, and we’re here to help you achieve that year-round. <br><br>
+                At Rivera’s Lawncare LLC, we don’t just maintain lawns — we build lasting relationships through dependable service, fair pricing, and quality work every time.
+                </p>
+            </div>
+
+            <div class="right_side">
+                <img src="Images/Lawn Mower.jpg" id="mower">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <p>Rivera's Lawncare is dedicated to providing you with the best service quality possible.</p>
+
+        <div class="services-container">
+            <div class="service-card">
+                <img src="Images/Yard Cleanup.jpg" alt="Yard Cleanup">
+                <h3>Yard Cleanup</h3>
+                <p>Price: $30-$100</p>
+            </div>
+            <div class="service-card">
+                <img src="Images/Mowing.jpg" alt="Mowing">
+                <h3>Mowing</h3>
+                <p>Price: $30-$100</p>
+            </div>
+            <div class="service-card">
+                <img src="Images/Trimming.jpg" alt="Trimming">
+                <h3>Trimming</h3>
+                <p>Price: $30-$100</p>
+            </div>
+            <div class="service-card">
+                <img src="Images/Edging.jpg" alt="Edging">
+                <h3>Edging</h3>
+                <p>Price: $30-$100</p>
+            </div>
+            <div class="service-card">
+                <img src="Images/Gutter Cleaning.jpg" alt="Gutter Cleanout">
+                <h3>Gutter Cleanout</h3>
+                <p>Price: $30-$100</p>
+            </div>
+            <div class="service-card">
+                <img src="Images/Fall Yard Cleanup.jpg" alt="Fall Yard Clean Up">
+                <h3>Fall Yard Cleanup</h3>
+                <p>Price: $30-$100</p>
+            </div>
+            <div class="service-card">
+                <img src="Images/Debris Removal.jpg" alt="Debris Removal">
+                <h3>Tree Debris Removal</h3>
+                <p>Price: $30-$100</p>
+            </div>
+            <div class="service-card">
+                <img src="Images/Flowerbed.jpg" alt="Flowerbed Maintenance">
+                <h3>Flowerbed Maintenance</h3>
+                <p>Price: $30-$100</p>
+            </div>
+            <div class="service-card">
+                <img src="Images/Snow Removal.jpg" alt="Snow Removal">
+                <h3>Snow Removal</h3>
+                <p>Price: $30-$100</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Work</h2>
+
+        <div class="gallery_wrapper">
+
+            <button class="arrow left" onclick="scrollGallery(-1)">&#10094;</button>
+
+            <div class="gallery_scroll" id="galleryScroll">
+                <img src="images/Edging.jpg" onclick="focusImage(this)">
+                <img src="images/Mowing.jpg" onclick="focusImage(this)">
+                <img src="images/Fall Yard Cleanup.jpg" onclick="focusImage(this)">
+                <img src="images/Snow Removal.jpg" onclick="focusImage(this)">
+                <img src="images/Edging.jpg" onclick="focusImage(this)">
+                <img src="images/Mowing.jpg" onclick="focusImage(this)">
+                <img src="images/Fall Yard Cleanup.jpg" onclick="focusImage(this)">
+                <img src="images/Snow Removal.jpg" onclick="focusImage(this)">
+                <img src="images/Edging.jpg" onclick="focusImage(this)">
+                <img src="images/Mowing.jpg" onclick="focusImage(this)">
+                <img src="images/Fall Yard Cleanup.jpg" onclick="focusImage(this)">
+                <img src="images/Snow Removal.jpg" onclick="focusImage(this)">
+                <img src="images/Edging.jpg" onclick="focusImage(this)">
+                <img src="images/Mowing.jpg" onclick="focusImage(this)">
+                <img src="images/Fall Yard Cleanup.jpg" onclick="focusImage(this)">
+                <img src="images/Snow Removal.jpg" onclick="focusImage(this)">
+            </div>
+
+            <button class="arrow right" onclick="scrollGallery(1)">&#10095;</button>
+            
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer_content">
+            <div class="footer_logo">
+                <h2>Rivera's Lawncare LLC.</h2>
+                <p>Quality lawn care you can trust.</p>
+            </div>
+
+            <div class="quick_links">
+                <h2>Quick Links</h2>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+            </div>
+
+            <div class="contact_info">
+                <h2>Contact Info</h2>
+                <p>Name: Kevin Rivera</p>
+                <p>Email: tecnicoeldad@hotmail.com</p>
+                <p>Phone: (515) 770-8457</p>
+                <p>Osceola, Iowa</p>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <p>&copy; Copyrights 2026. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
